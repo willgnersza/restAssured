@@ -1,0 +1,14 @@
+  stages:
+    - test
+
+  test_rest_assured:
+    stage: test
+    image: maven:3.8.4-jdk-11  # Usando a imagem do Maven com JDK 11
+    script:
+      - mvn clean test  # Executar os testes com Maven
+    only:
+      - main  # Executar este pipeline apenas na branch main
+    artifacts:
+      paths:
+        - target/rest_assured  # Caminho para os relatórios ou artefatos gerados
+      expire_in: 1 week
