@@ -10,5 +10,5 @@
       - main  # Executar este pipeline apenas na branch main
     artifacts:
       paths:
-        - target/rest_assured  # Caminho para os relatórios ou artefatos gerados
+        - target/rest_assured  # Caminho para os relatórios ou artefatos gerados por exemplo o arquivo Report.html
       expire_in: 1 week
