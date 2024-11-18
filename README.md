@@ -4,7 +4,7 @@ Este projeto visa exemplificar o uso do REST Assured para testes de api em conju
 
 ## Implementação
 
-A realizada a implementação de quatro testes dos métodos POST, GET, PUT e DELETE onde é feita a requisição e validação das saídas e gerado um relatório contendo as informações mais relevantes para análise.
+Foi realizada a implementação de quatro testes dos métodos POST, GET, PUT e DELETE onde é feita a requisição e validação das saídas e gerado um relatório contendo as informações mais relevantes para análise.
 
 ## Análise de Resultados
 
