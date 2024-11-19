@@ -9,3 +9,7 @@ Foi realizada a implementação de quatro testes dos métodos POST, GET, PUT e D
 ## Análise de Resultados
 
 A relatório html foi gerado no arquivo Report.html.
+
+## CI/CD
+
+O arquivo .gitlab-ci.yml contem um exemplo de como implementar uma integração continua para que a cada commit os testes sejam executados.
